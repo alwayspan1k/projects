@@ -1,4 +1,3 @@
-
 import random
 
 while True:
@@ -24,17 +23,17 @@ while True:
     print("AI throws", ai_throw)
 
     if (player_throw == ai_throw):
-        print("Tie Game!")
+        print("No one wins!")
     elif (player_throw == "Rock"):
         if (ai_throw == "Paper"):
-            print("AI Wins!")
+            print("AI Wins! Dont lose hope, you can still commit to vendetta")
         elif (ai_throw == "Scissors"):
             print("Player Wins!")
     elif (player_throw == "Paper"):
         if (ai_throw == "Scissors"):
-            print("AI Wins!")
+            print("AI Wins! Next time bring a knife to the fight.")
         elif (ai_throw == "Rock"):
-            print("Player Wins!")
+            print("Player Wins! Who says stoning people isnt cool anymore?")
     elif (player_throw == "Scissors"):
         if (ai_throw == "Rock"):
             print("AI Wins!")
@@ -42,8 +41,8 @@ while True:
             print("Player Wins!")
 
     print("\n")
-    print("1) Play Again")
-    print("2) Quit")
+    print("1. Play Again")
+    print("2. Quit")
     selection = int(input("Enter Choice: "))
 
     # to stop the execution of the loop.
