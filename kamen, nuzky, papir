@@ -3,10 +3,10 @@ import random
 
 while True:
     print("\n")
-    print("1) Rock")
-    print("2) Paper")
-    print("3) Scissors")
-    selection = int(input("Enter Throw: "))
+    print("1. Rock")
+    print("2. Paper")
+    print("3. Scissors")
+    selection = int(input("Choose your fighter: "))
 
     if (selection == 1):
         player_throw = "Rock"
